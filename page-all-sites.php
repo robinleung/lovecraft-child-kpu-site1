@@ -8,15 +8,17 @@
 
 			<div class="post">
 				<div class="post-inner">
+					<div class="post-content">
 
-			<h2>Listing of All Opened Sites</h2>
-			<?php
-			// Display subsite listing
-			get_template_part( 'template_parts/all-sites-listing' );
-			?>
+						<h2>Listing of All Opened Sites</h2>
+						<?php
+						// Display subsite listing
+						get_template_part( 'template_parts/all-sites-listing' );
+						?>
 
-							<div>
-								<div>
+					</div>
+				</div>
+			</div>
 
 		</div><!-- .content -->
 
