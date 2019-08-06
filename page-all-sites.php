@@ -8,7 +8,6 @@
 
 			<div class="post">
 				<div class="post-inner">
-					<div class="post-content">
 
 			<h2>Listing of All Opened Sites</h2>
 			<?php
@@ -16,7 +15,6 @@
 			get_template_part( 'template_parts/all-sites-listing' );
 			?>
 
-						<div>
 							<div>
 								<div>
 
