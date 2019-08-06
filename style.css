@@ -1,0 +1,87 @@
+/*---------------------------------------------------------------------------------
+	Theme Name: Trubox One (Chaplin Child Theme)
+	Template: chaplin
+	Version: 0.1
+	Description: Trubox One child theme based on Chaplin by Anders Norén.
+	Author: TRU Learning Technology and Innovations Group
+	License: GNU General Public License version 2.0
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+-----------------------------------------------------------------------------------*/
+
+/**
+ * User & site sign-up/documentation on wp-signup.php
+ */
+
+/* Sign up page */
+#custom_signup_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#custom_signup_docs,
+#signup-content {
+    flex: 1;
+    margin: 10px;
+}
+
+@media (max-width: 700px) {
+    #custom_signup_wrapper {
+        display: block;
+    }
+}
+
+#signup-content .mu_register {
+    width: 100%;
+}
+
+.ltig-custom-sign-up #site-header {
+    margin-bottom: 30px;
+}
+
+#signup-content .mu_alert {
+    display: none;
+}
+
+#signup-content {
+    padding: 20px;
+}
+
+#custom_signup_docs {
+    border: 2px solid black;
+    background: rgb(0, 124, 137, .5);
+    padding: 20px;
+}
+
+#custom_signup_docs h3,
+#signup-content h2 {
+    margin-top: 0;
+}
+
+#multisite-directory-signup-categories {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.0rem;
+}
+
+#multisite-directory-signup-categories .popular-category {
+    list-style-type: none;
+    margin: 0;
+}
+
+#multisite-directory-signup-categories .popular-category label {
+    margin: 0;
+}
+
+
+/* All sites page */
+ul.all-sites {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.all-sites li {
+    list-style-type: none;
+}
