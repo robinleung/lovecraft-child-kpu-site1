@@ -31,6 +31,7 @@
 	<div class="content">
 		<div class="post">
 			<div class="post-inner">
+				<div class="post-content">
 <article id="custom_signup_wrapper">
 <div id="custom_signup_docs">
 <h3>How to create an account and/or get a site</h3>
