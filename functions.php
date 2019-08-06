@@ -25,10 +25,10 @@ add_action( 'after_signup_form', 'custom_signup_docs_close' );
 // Put items on admin toolbar
 function openetc_update_adminbar($wp_adminbar) {
 
-	// add OpenETC main node
+	// add OpenETC-admin main node
 	$wp_adminbar->add_node([
-		'id' => 'openetc',
-		'title' => 'OpenETC',
+		'id' => 'openetc-admin',
+		'title' => 'OpenETC-admin',
 		'href' => '',
 		'meta' => [
 			'target' => 'sitepoint'
@@ -39,7 +39,7 @@ function openetc_update_adminbar($wp_adminbar) {
 	$wp_adminbar->add_node([
 		'id' => 'openetc-all-sites',
 		'title' => 'All Sites Listing',
-		'parent' => 'openetc',
+		'parent' => 'openetc-admin',
 		'href' => 'https://opened.ca/openetc-sites-directory/all-sites/',
 		'meta' => [
 			'target' => 'openetc'
@@ -51,7 +51,7 @@ function openetc_update_adminbar($wp_adminbar) {
 	// add Clone Zone group
 	$wp_adminbar->add_group([
 		'id' => 'openetc-clonezone-group',
-		'parent' => 'openetc',
+		'parent' => 'openetc-admin',
 	]);
 
 	// add sub-menu item: Clone zone
@@ -81,7 +81,7 @@ function openetc_update_adminbar($wp_adminbar) {
 	// add Docs group
 	$wp_adminbar->add_group([
 		'id' => 'openetc-docs-group',
-		'parent' => 'openetc',
+		'parent' => 'openetc-admin',
 	]);
 
 	// add sub-menu item: User Onboarding
@@ -99,7 +99,7 @@ function openetc_update_adminbar($wp_adminbar) {
 	$wp_adminbar->add_node([
 		'id' => 'openetc-dev',
 		'title' => 'Development',
-		'parent' => 'openetc',
+		'parent' => 'openetc-admin',
 		'href' => 'https://opened.ca/admin-docs/in-development/',
 		'meta' => [
 			'target' => 'openetc'
