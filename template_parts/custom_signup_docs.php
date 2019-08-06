@@ -1,12 +1,36 @@
 <!-- Remove overlay classes from body tag, add ltig-custom-sign-up class -->
 <script>
-	if(!document.body.classList.contains("openetc-custom-sign-up")) {
-	    document.body.classList.add("openetc-custom-sign-up");
+	if(document.body.classList.contains("home")) {
+	    document.body.classList.remove("home");
 	}
+
+    if(document.body.classList.contains("page-template-default")) {
+        document.body.classList.remove("page-template-default");
+    }
+
+    if(!document.body.classList.contains("openetc-custom-sign-up")) {
+        document.body.classList.add("openetc-custom-sign-up");
+    }
+
+    if(!document.body.classList.contains("page-template-full-width-page-template")) {
+        document.body.classList.add("page-template-full-width-page-template");
+    }
+
+    if(!document.body.classList.contains("page-template-full-width-page-template-php")) {
+        document.body.classList.add("page-template-full-width-page-template-php");
+    }
+
+    if(!document.body.classList.contains("page-template")) {
+        document.body.classList.add("page-template");
+    }
 </script>
 
 <!-- render opening tags for sign up sheet. closing tags are in matching closing file -->
-<main class="section-inner">
+<div class="wrapper section">
+<div class="section-inner">
+	<div class="content">
+		<div class="post">
+			<div class="post-inner">
 <article id="custom_signup_wrapper">
 <div id="custom_signup_docs">
 <h3>How to create an account and/or get a site</h3>
@@ -23,5 +47,4 @@
 		<li>Registered users of this <strong>network</strong> include any registered user on any Trubox website</li>
 		<li>Registered users/Administrators of this <strong>site</strong> include yourself and users that you specifically give accounts/administrator permissions on your site to. This is a good option to select if you only want yourself and, for instance, your instructor to be able to view your site.</li>
 	</ul>
-	<p>If you have any questions please contact: <a href="mailto: learningtech@tru.ca">learningtech@tru.ca</a></p>
 </div>
