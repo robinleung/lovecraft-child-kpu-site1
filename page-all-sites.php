@@ -10,7 +10,7 @@
 				<div class="post-inner">
 					<div class="post-content">
 
-			<h2>Listing of All Trubox Sites</h2>
+			<h2>Listing of All Opened Sites</h2>
 			<?php
 			// Display subsite listing
 			get_template_part( 'template_parts/all-sites-listing' );
