@@ -1,7 +1,7 @@
 <?php // Site listing
 $args = array (
 	'count' => false,
-	'number' => 700,
+	'number' => 2000,
 );
 
 $subsites = get_sites($args);

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="$USER_HOME$/.composer/vendor/bin/phpmd" />
+    </phpmd_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;WordPress;WordPress-Core;WordPress-Docs;WordPress-Extra;WordPress-VIP;Zend" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/mustangostang-spyc" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/config-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/eval-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/scaffold-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/import-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/widget-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/shell-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/wp-cli" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/cache-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/search-replace-command" />
+      <path value="$USER_HOME$/.composer/vendor/myclabs/deep-copy" />
+      <path value="$USER_HOME$/.composer/vendor/pdepend/pdepend" />
+      <path value="$USER_HOME$/.composer/vendor/phar-io/manifest" />
+      <path value="$USER_HOME$/.composer/vendor/phar-io/version" />
+      <path value="$USER_HOME$/.composer/vendor/phpspec/prophecy" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-timer" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-file-iterator" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/dbunit" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-text-template" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-token-stream" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-code-coverage" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/phpunit" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/console" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/process" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/dependency-injection" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/debug" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/filesystem" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/finder" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/event-dispatcher" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/polyfill-ctype" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/translation" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/polyfill-mbstring" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/config" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/yaml" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/fdomdocument" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/tokenizer" />
+      <path value="$USER_HOME$/.composer/vendor/doctrine/instantiator" />
+      <path value="$USER_HOME$/.composer/vendor/mustache/mustache" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/global-state" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/recursion-context" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/object-enumerator" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/object-reflector" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/diff" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/version" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/comparator" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/environment" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/exporter" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/phpcpd" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/resource-operations" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/finder-facade" />
+      <path value="$USER_HOME$/.composer/vendor/squizlabs/php_codesniffer" />
+      <path value="$USER_HOME$/.composer/vendor/webmozart/assert" />
+      <path value="$USER_HOME$/.composer/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$USER_HOME$/.composer/vendor/justinrainbow/json-schema" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/type-resolver" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/reflection-common" />
+      <path value="$USER_HOME$/.composer/vendor/wp-coding-standards/wpcs" />
+      <path value="$USER_HOME$/.composer/vendor/composer" />
+      <path value="$USER_HOME$/.composer/vendor/nb/oxymel" />
+      <path value="$USER_HOME$/.composer/vendor/psr/container" />
+      <path value="$USER_HOME$/.composer/vendor/psr/log" />
+      <path value="$USER_HOME$/.composer/vendor/seld/phar-utils" />
+      <path value="$USER_HOME$/.composer/vendor/seld/jsonlint" />
+      <path value="$USER_HOME$/.composer/vendor/phing/phing" />
+      <path value="$USER_HOME$/.composer/vendor/phpmd/phpmd" />
+      <path value="$USER_HOME$/.composer/vendor/phploc/phploc" />
+      <path value="$USER_HOME$/.composer/vendor/ramsey/array_column" />
+      <path value="$USER_HOME$/.composer/vendor/rmccue/requests" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/rewrite-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/wp-config-transformer" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/embed-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/language-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/server-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/cron-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/super-admin-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/autoload-splitter" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/export-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/extension-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/role-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/entity-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/core-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/media-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/db-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/checksum-command" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/php-cli-tools" />
+      <path value="$USER_HOME$/.composer/vendor/wp-cli/package-command" />
+    </include_path>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$USER_HOME$/.composer/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
