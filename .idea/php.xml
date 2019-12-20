@@ -100,11 +100,52 @@
       <path value="$USER_HOME$/.composer/vendor/wp-cli/checksum-command" />
       <path value="$USER_HOME$/.composer/vendor/wp-cli/php-cli-tools" />
       <path value="$USER_HOME$/.composer/vendor/wp-cli/package-command" />
+      <path value="$USER_HOME$/.composer/vendor/jms/metadata" />
+      <path value="$USER_HOME$/.composer/vendor/container-interop/container-interop" />
+      <path value="$USER_HOME$/.composer/vendor/zetacomponents/document" />
+      <path value="$USER_HOME$/.composer/vendor/zetacomponents/base" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-json" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-config" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-serializer" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-hydrator" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-cache" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-servicemanager" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-eventmanager" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-stdlib" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/phpdocumentor" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/reflection" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-filter" />
+      <path value="$USER_HOME$/.composer/vendor/zendframework/zend-i18n" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/fileset" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/graphviz" />
+      <path value="$USER_HOME$/.composer/vendor/doctrine/lexer" />
+      <path value="$USER_HOME$/.composer/vendor/phpcompatibility/phpcompatibility-wp" />
+      <path value="$USER_HOME$/.composer/vendor/phpcompatibility/php-compatibility" />
+      <path value="$USER_HOME$/.composer/vendor/herrera-io/phar-update" />
+      <path value="$USER_HOME$/.composer/vendor/phpcompatibility/phpcompatibility-paragonie" />
+      <path value="$USER_HOME$/.composer/vendor/doctrine/annotations" />
+      <path value="$USER_HOME$/.composer/vendor/herrera-io/json" />
+      <path value="$USER_HOME$/.composer/vendor/phpoption/phpoption" />
+      <path value="$USER_HOME$/.composer/vendor/phpcollection/phpcollection" />
+      <path value="$USER_HOME$/.composer/vendor/kherge/version" />
+      <path value="$USER_HOME$/.composer/vendor/pimple/pimple" />
+      <path value="$USER_HOME$/.composer/vendor/jms/parser-lib" />
+      <path value="$USER_HOME$/.composer/vendor/nikic/php-parser" />
+      <path value="$USER_HOME$/.composer/vendor/erusev/parsedown" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/stopwatch" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/validator" />
+      <path value="$USER_HOME$/.composer/vendor/monolog/monolog" />
+      <path value="$USER_HOME$/.composer/vendor/psr/cache" />
+      <path value="$USER_HOME$/.composer/vendor/psr/simple-cache" />
+      <path value="$USER_HOME$/.composer/vendor/cilex/cilex" />
+      <path value="$USER_HOME$/.composer/vendor/cilex/console-service-provider" />
+      <path value="$USER_HOME$/.composer/vendor/twig/twig" />
+      <path value="$USER_HOME$/.composer/vendor/jms/serializer" />
     </include_path>
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$USER_HOME$/.composer/vendor/autoload.php" />
+      <PhpUnitSettings custom_loader_path="$USER_HOME$/.composer/vendor/autoload.php" />
     </phpunit_settings>
   </component>
 </project>

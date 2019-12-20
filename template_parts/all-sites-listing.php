@@ -1,4 +1,9 @@
-<?php // Site listing
+<?php
+/**
+ * Builds a list of all subsites of a multisite installation.
+ *
+ * @dependency https://en-ca.wordpress.org/plugins/multisite-directory/
+ */
 $args = array (
 	'count' => false,
 	'number' => 2000,

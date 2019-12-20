@@ -10,6 +10,7 @@ function enqueue_child_theme_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_styles', PHP_INT_MAX);
 
+
 // Embed template parts for sign-up form. Note: article tag is opened in custom_signup_docs.php
 // and is closed in custom_signup_docs_close.php
 function custom_signup_docs() {
@@ -21,6 +22,7 @@ function custom_signup_docs_close() {
 get_template_part( 'template_parts/custom_signup_docs_close' );
 }
 add_action( 'after_signup_form', 'custom_signup_docs_close' );
+
 
 // Put items on admin toolbar
 function openetc_update_adminbar($wp_adminbar) {
