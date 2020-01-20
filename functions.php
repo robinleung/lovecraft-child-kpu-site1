@@ -25,12 +25,12 @@ add_action( 'after_signup_form', 'custom_signup_docs_close' );
 
 
 // Put items on admin toolbar
-function openetc_update_adminbar($wp_adminbar) {
+function kpu_update_adminbar($wp_adminbar) {
 
 	// add OpenETC-admin main node
 	$wp_adminbar->add_node([
-		'id' => 'openetc-admin',
-		'title' => 'OpenETC-admin',
+		'id' => 'kpu-admin',
+		'title' => 'kpu-admin',
 		'href' => '',
 		'meta' => [
 			'target' => 'sitepoint'
@@ -39,12 +39,12 @@ function openetc_update_adminbar($wp_adminbar) {
 
 	// add sub-menu item: All Sites
 	$wp_adminbar->add_node([
-		'id' => 'openetc-all-sites',
+		'id' => 'kpu-all-sites',
 		'title' => 'All Sites Listing',
-		'parent' => 'openetc-admin',
-		'href' => 'https://opened.ca/openetc-sites-directory/all-sites/',
+		'parent' => 'kpu-admin',
+		'href' => 'https://wordpress.kpu.ca/all-sites/',
 		'meta' => [
-			'target' => 'openetc'
+			'target' => 'kpu'
 		]
 	]);
 
@@ -52,29 +52,29 @@ function openetc_update_adminbar($wp_adminbar) {
 
 	// add Clone Zone group
 	$wp_adminbar->add_group([
-		'id' => 'openetc-clonezone-group',
-		'parent' => 'openetc-admin',
+		'id' => 'kpu-clonezone-group',
+		'parent' => 'kpu-admin',
 	]);
 
 	// add sub-menu item: Clone zone
 	$wp_adminbar->add_node([
-		'id' => 'openetc-clonezone',
+		'id' => 'kpu-clonezone',
 		'title' => 'Clone Zone',
-		'parent' => 'openetc-clonezone-group',
-		'href' => 'https://opened.ca/clone-zone/',
+		'parent' => 'kpu-clonezone-group',
+		'href' => 'https://wordpress.kpu.ca/clone-zone/',
 		'meta' => [
-			'target' => 'openetc'
+			'target' => 'kpu'
 		]
 	]);
 
 	// add sub-menu item: Clone Zone Templates
 	$wp_adminbar->add_node([
-		'id' => 'openetc-clone-templates',
+		'id' => 'kpu-clone-templates',
 		'title' => 'Clone Zone Templates',
-		'parent' => 'openetc-clonezone-group',
-		'href' => 'https://opened.ca/clone/',
+		'parent' => 'kpu-clonezone-group',
+		'href' => 'https://wordpress.kpu.ca/clone/',
 		'meta' => [
-			'target' => 'openetc'
+			'target' => 'kpu'
 		]
 	]);
 
@@ -82,33 +82,33 @@ function openetc_update_adminbar($wp_adminbar) {
 
 	// add Docs group
 	$wp_adminbar->add_group([
-		'id' => 'openetc-docs-group',
-		'parent' => 'openetc-admin',
+		'id' => 'kpu-docs-group',
+		'parent' => 'kpu-admin',
 	]);
 
 	// add sub-menu item: User Onboarding
 	$wp_adminbar->add_node([
-		'id' => 'openetc-user-onboarding',
+		'id' => 'kpu-user-onboarding',
 		'title' => 'User Onboarding',
-		'parent' => 'openetc-docs-group',
-		'href' => 'https://opened.ca/admin-docs/user-onboarding-options/',
+		'parent' => 'kpu-docs-group',
+		'href' => 'https://wordpress.kpu.ca/admin-docs/user-onboarding-options/',
 		'meta' => [
-			'target' => 'openetc'
+			'target' => 'kpu'
 		]
 	]);
 
 	// add sub-menu item: Development
 	$wp_adminbar->add_node([
-		'id' => 'openetc-dev',
+		'id' => 'kpu-dev',
 		'title' => 'Development',
-		'parent' => 'openetc-admin',
-		'href' => 'https://opened.ca/admin-docs/in-development/',
+		'parent' => 'kpu-admin',
+		'href' => 'https://wordpress.kpu.ca/admin-docs/in-development/',
 		'meta' => [
-			'target' => 'openetc'
+			'target' => 'kpu'
 		]
 	]);
 }
 
 // ltig_admin_bar_menu hook
-add_action('admin_bar_menu', 'openetc_update_adminbar', 999);
+add_action('admin_bar_menu', 'kpu_update_adminbar', 999);
 
