@@ -9,8 +9,8 @@
         document.body.classList.remove("page-template-default");
     }
 
-    if(!document.body.classList.contains("openetc-all-sites")) {
-        document.body.classList.add("openetc-all-sites");
+    if(!document.body.classList.contains("kpu-all-sites")) {
+        document.body.classList.add("kpu-all-sites");
     }
 
     if(!document.body.classList.contains("page-template-full-width-page-template")) {
@@ -36,7 +36,7 @@
 				<div class="post-inner">
 					<div class="post-content">
 
-						<h2>Listing of All Opened Sites</h2>
+						<h2>Listing of All KPU WordPress Sites</h2>
 						<?php
 						// Display subsite listing
 						get_template_part( 'template_parts/all-sites-listing' );
